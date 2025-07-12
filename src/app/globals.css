@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: var(--font-alpino), 'sans-serif';
+}
+
+.animation-slide-left {
+  animation: slide-left 3s linear infinite;
+}
+
+.animation-spin-slow {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
