@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { SVGProps } from 'react';
 
-export function FizziLogo(props: SVGProps<SVGSVGElement>) {
+export default function FizziLogo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export function FizziLogo(props: SVGProps<SVGSVGElement>) {
           <g className="transition-transform duration-500 ease-in-out group-hover:translate-y-[80%]">
             <path
               fill="currentColor"
-              className="animate-slide-left"
+              className="animation-slide-left"
               d="M45.3-31C24.9-31.7 15.9-26.6 0-16.4V87h342V-16.5l-4 1.7A74 74 0 0 1 297.3-7c-11.9-.3-24.7-5.7-38-11.3-14-5.9-28.6-12-43-12.6-20.4-.9-29.4 4.2-45.3 14.4l-4 1.7A74 74 0 0 1 126.3-7c-11.9-.3-24.7-5.7-38-11.3-14-5.9-28.6-12-43-12.6Z"
             ></path>
           </g>
