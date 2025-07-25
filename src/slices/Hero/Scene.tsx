@@ -8,12 +8,15 @@ import { Group } from 'three';
 import { ScrollTrigger } from 'gsap/all';
 
 import FloatingCan from '@/components/FloatingCan';
+import { useStore } from '@/hooks/useStore';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const FLOAT_SPEED = 1.5;
 
 const Scene = () => {
+  const isReady = useStore((state) => state.isReady);
+
   const canOneRef = useRef<Group>(null);
   const canTwoRef = useRef<Group>(null);
   const canThreeRef = useRef<Group>(null);
@@ -37,6 +40,8 @@ const Scene = () => {
       !groupRef.current
     )
       return;
+
+    isReady();
 
     // Set can one starting location
     gsap.set(canOneRef.current.position, { x: -1.5 });
