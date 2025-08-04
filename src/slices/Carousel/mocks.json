@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Student"
+						}
+					}
+				]
+			},
+			"price_copy": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim esse ea ipsum minim minim ipsum aute ea excepteur sunt velit consequat. Et exercitation pariatur non amet eiusmod ex officia consectetur irure dolor nostrud. Voluptate aliquip nisi dolore culpa excepteur."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
