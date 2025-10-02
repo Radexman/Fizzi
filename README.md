@@ -2,9 +2,7 @@
 
 **Live Demo:** [https://fizzi-radexman.vercel.app/](https://fizzi-radexman.vercel.app/)
 
-Fizzi is a **fake product showcase** app for a prebiotic soda brand, built using modern web technologies to demonstrate the integration of 3D experiences with content management systems. It leverages the power of **Next.js**, **Prismic**, and **Three.js** to create a visually rich, animated, and content-driven product landing page.
-
-> This project was developed following the excellent [Prismic YouTube course](https://www.youtube.com/watch?v=RKQqrNyAC6k&t=16054s), which deepened my understanding of 3D interactive experiences using tools like `@react-three/fiber`, `drei`, and `gsap`.
+Fizzi is a **fake product showcase** app for a prebiotic soda brand, built using modern web technologies to demonstrate the integration of 3D experiences with content management systems. It leverages the power of **Next.js**, **React**, **Prismic**, and **Three.js** to create a visually rich, animated, and content-driven product landing page.
 
 ---
 
@@ -40,5 +38,3 @@ npm run format      # Format code using Prettier
 
 🔧 Developer tooling with ESLint, Prettier, and TypeScript
 
-✍️ Author
-Fizzi was created by Prismic and extended/customized as part of a learning project by Radexman.
