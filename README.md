@@ -8,7 +8,7 @@ Fizzi is a **fake product showcase** app for a prebiotic soda brand, built using
 
 ## 🚀 Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) with Turbopack
+- **Framework**: [Next.js](https://nextjs.org/) with Turbopack, React
 - **CMS**: [Prismic](https://prismic.io/)
 - **3D & Animation**: [Three.js](https://threejs.org/), [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber), [drei](https://github.com/pmndrs/drei), [GSAP](https://greensock.com/gsap/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
